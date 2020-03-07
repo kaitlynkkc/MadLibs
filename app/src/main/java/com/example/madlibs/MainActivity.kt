@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-//    fun startClick(view: View) {
-//        val myIntent = Intent(this, DetailsActivity::class.java)
-//        startActivity(myIntent)
-//    }
+    fun startClick(view: View) {
+        val myIntent = Intent(this, ChooseStory::class.java)
+        startActivity(myIntent)
+    }
 }
